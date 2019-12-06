@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testNG">
+	<test name="testNg Fetures">
+		<classes>
+			<class name="TestNG.TestAnnotations" />
+			<class name="TestNG.TestSequencing" />
+			<class name="TestNG.TestAttributes" />
+			<class name="TestNG.TestFacebookWithDependency" />
+		</classes>
+	</test>
+</suite>
